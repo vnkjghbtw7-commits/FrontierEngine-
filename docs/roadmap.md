@@ -12,6 +12,18 @@
   4. **Research iteration:** the tracking accuracy work is trial and error. It's measured, not guessed.
 - Estimates assume you respond within about a day and we work most weekdays. Each work session starts fresh, so **GitHub is the project's memory**. GitHub access has to be fixed first.
 
+## Decisions (Nov 2026)
+
+- **Footage:** support both DCI footage and bands' own footage from the start.
+- **Field types:** high school, college (NCAA) and NFL hash marks.
+- **Test data:** plan for **video only**. Pyware files may come later. Until then, accuracy is measured against hand-checked tracks.
+- **Compute:** the director's home PC (NVIDIA RTX 30/40/50 series), connected to the session through Remote Control. Cloud GPU only if needed.
+- **Labeling:** the director corrects the pre-labeled frames.
+- **Check-ins:** a weekly report with metrics and the decisions needed.
+- **Tracking target:** 20 or fewer manual fixes per full show (stretch goal: 5).
+
+**Legal caution:** DCI footage is used for internal research and development only. Don't publish drill reconstructed from it until rights are cleared.
+
 ## Guiding principle: measure everything
 
 Every phase has a **test set** (clips with known correct answers) and a **metric**. We only move on when the metric passes the gate.
